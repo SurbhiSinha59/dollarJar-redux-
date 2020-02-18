@@ -11,11 +11,13 @@ import Persons from "./Persons";
 class DollarJar extends Component {
   constructor(props) {
     super(props);
+    console.log(props);
   }
   render() {
     return (
       <div>
         <Persons />
+
         {this.props.persons.map(user => {
           return (
             <AddNewPerson

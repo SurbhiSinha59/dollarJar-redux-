@@ -17,7 +17,7 @@ function Person(props) {
         value={props.name}
         placeholder="enter person"
         onChange={props.onNameChange}
-        onKeyDown={props.onEnterPress}
+        // onKeyDown={props.onEnterPress}
       ></input>
       <button onClick={props.onUserAddition}>ADD USER</button>
       <p>
@@ -46,7 +46,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
   return {
     onNameChange: event => dispatch(onNameChange(event)),
-    onEnterPress: event => dispatch(onEnterPress(event)),
+    // onEnterPress: event => dispatch(onEnterPress(event)),
     onUserAddition: event => dispatch(onUserAddition(event)),
     onJarChange: event => dispatch(onJarChange(event))
   };

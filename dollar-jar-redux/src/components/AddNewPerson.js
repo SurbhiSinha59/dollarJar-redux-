@@ -1,6 +1,5 @@
 import React from "react";
 import "./Person.css";
-import { connect } from "react-redux";
 
 const person = props => {
   return (
@@ -12,4 +11,5 @@ const person = props => {
     </div>
   );
 };
+
 export default person;

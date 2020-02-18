@@ -19,12 +19,12 @@ export function onUserAddition(event) {
   };
 }
 
-export function onEnterPress(event) {
-  return {
-    type: "ON-ENTER-PRESS",
-    payload: event
-  };
-}
+// export function onEnterPress(event) {
+//   return {
+//     type: "ON-ENTER-PRESS",
+//     payload: event
+//   };
+// }
 
 export function onJarChange(event) {
   return {
